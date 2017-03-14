@@ -7,8 +7,12 @@
     "name": "Aarsh Talati"
   },
   "dependencies": {
+    "angular": "^1.2.27",
+    "angular-resource": "^1.6.3",
+    "angular-route": "^1.6.3",
     "angular-ui-bootstrap": "^2.5.0",
     "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
     "express": "^4.15.2",
     "jade": "^1.11.0",
     "morgan": "^1.8.1",
