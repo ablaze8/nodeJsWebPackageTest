@@ -4,6 +4,14 @@
   "description": "nodeJsWebPackageTest",
   "main": "server.js",
   "author": {
-    "name": "UGAT174"
+    "name": "Aarsh Talati"
+  },
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.1",
+    "stylus": "^0.54.5"
   }
 }

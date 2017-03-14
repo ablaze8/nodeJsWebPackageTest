@@ -1,8 +1,16 @@
 'use strict';
 var http = require('http');
+var express = require('express');
+var app = express();
+
 var port = process.env.port || 1337;
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+// view engine
+app.set("view engine", "jade");
+
+app.get("/", function (req, res) {
+    res.render("jade/index", { title: "Demo App 123" });
+});
+
+var server = http.createServer(app);
+server.listen(port);
