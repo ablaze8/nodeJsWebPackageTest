@@ -1,0 +1,9 @@
+{
+  "name": "node-js-web-package-test",
+  "version": "0.0.0",
+  "description": "nodeJsWebPackageTest",
+  "main": "server.js",
+  "author": {
+    "name": "UGAT174"
+  }
+}
