@@ -30,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="public\app\app.js" />
+    <Compile Include="public\app\controllers\mainController.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />

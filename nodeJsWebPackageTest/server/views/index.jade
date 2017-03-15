@@ -1,3 +1,11 @@
 ﻿extends ../includes/layout
 block main-content
-    p my index page, should not be on the bottom
+    div(data-ng-controller="mainController")
+        input(type="text", data-ng-model="newFruit")
+        input(type="button", value="add", data-ng-click="addFruit()")
+        {{fruits}}
+
+        ul.list-group
+            li.list-group-item(data-ng-repeat="f in fruits")
+                {{f.name}}
+                input(type="button", value="delete", data-ng-click="deleteFruit(f.id)")
